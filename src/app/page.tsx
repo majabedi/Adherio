@@ -433,24 +433,30 @@ export default function Home() {
                 A dedicated space for the medication adherence conversation demo.
               </h2>
               <p className="mt-5 text-lg leading-8 text-[#5f6f82]">
-                This section is ready for a future iframe, static HTML widget,
-                ElevenLabs agent, OpenAI agent, or another conversational demo.
+                This section points to the current static voice agent demo and
+                can later be replaced by an embedded widget or iframe.
               </p>
               <a
-                href="/demo-agent.html"
+                href="/index-static-tempkey.html"
                 className="mt-8 inline-flex h-12 items-center justify-center rounded-full border border-[#B8D5DE] bg-white px-6 text-sm font-semibold text-[#0B1F3A] transition hover:border-[#21B6A8] hover:text-[#117f77]"
               >
-                Open demo placeholder
+                Open live agent demo
               </a>
             </div>
             <div
               id="demo-agent-placeholder"
-              className="flex min-h-[360px] items-center justify-center rounded-3xl border border-dashed border-[#7BBDB7] bg-white p-8 text-center shadow-[0_18px_50px_rgba(11,31,58,0.08)]"
+              className="flex min-h-[360px] flex-col items-center justify-center rounded-3xl border border-dashed border-[#7BBDB7] bg-white p-8 text-center shadow-[0_18px_50px_rgba(11,31,58,0.08)]"
             >
               <p className="max-w-md text-xl font-semibold leading-8 text-[#0B1F3A]">
-                Interactive demo agent coming soon. This area will host a live
-                medication adherence conversation demo.
+                Live voice agent demo is available on the static Agent Demo
+                page.
               </p>
+              <a
+                href="/index-static-tempkey.html"
+                className="mt-6 inline-flex h-12 items-center justify-center rounded-full bg-[#0B1F3A] px-6 text-sm font-semibold text-white shadow-[0_12px_30px_rgba(11,31,58,0.18)] transition hover:bg-[#14375f]"
+              >
+                Launch demo
+              </a>
             </div>
           </div>
         </div>
